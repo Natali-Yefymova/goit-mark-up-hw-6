@@ -714,12 +714,18 @@ img {
 }
 .policy-link {
   color: var(--accent-blue);
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-left: 2px;
 }
 .policy-label {
   display: flex;
-  /* justify-content: center; */
   align-items: center;
   flex-wrap: wrap;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 .policy-label::before {
   display: block;
@@ -746,18 +752,5 @@ img {
   justify-content: center;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 30px;
 }
-/* 
-
-
-.modal-inputs {
-  margin-top: 12px;
-}
-
-
-
-
-
-
-
- */
