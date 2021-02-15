@@ -726,19 +726,19 @@ img {
   width: 16px;
   height: 16px;
   content: "";
-  outline: 2px solid var(--text-black);
+  border: 2px solid var(--text-black);
   border-radius: 2px;
   margin-right: 8px;
 }
 .policy-checkbox:checked + .policy-label::before {
   background-color: var(--accent-blue);
   border-color: transparent;
-  background-image: url(./images/form/icon-check);
-  background-size: cover;
+  background-image: url(./images/form/icon-check.svg);
+  background-size: contain;
   background-origin: border-box;
 }
 .policy-checkbox:focus + .policy-label::before {
-  background-color: var(--accent-blue);
+  /* background-color: var(--accent-blue); */
 }
 
 .button-hero.btn-modal {
