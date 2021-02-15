@@ -732,7 +732,7 @@ img {
 }
 .policy-checkbox:checked + .policy-label::before {
   background-color: var(--accent-blue);
-  border-color: transparent;
+  border-color: var(--accent-blue);
   background-image: url(../images/form/icon-check.svg);
   background-size: contain;
   background-origin: border-box;
