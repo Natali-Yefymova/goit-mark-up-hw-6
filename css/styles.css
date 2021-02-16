@@ -195,8 +195,8 @@ img {
 }
 .footer-contact {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
+  justify-content: baseline;
+  align-items: ;
 }
 .join-text {
   font-weight: bold;
@@ -221,13 +221,16 @@ img {
 .join .social-icons {
   fill: var(--text-white);
 }
+.footer-form {
+  margin-left: 94px;
+}
 .footer-input {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
   padding: 16px;
-  width: 310px;
+  width: 358px;
   margin-right: 12px;
   color: var(--text-white);
 }
@@ -652,6 +655,9 @@ img {
   justify-content: center;
   align-items: center;
 }
+.modal-btn:hover .modal-close {
+  fill: var(--accent-blue);
+}
 .modal-title {
   font-weight: bold;
   font-size: 20px;
@@ -665,7 +671,7 @@ img {
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
   width: 100%;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   padding-top: 12px;
   padding-bottom: 12px;
   padding-left: 42px;
